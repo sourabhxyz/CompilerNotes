@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{\PYGZlt{}INITIAL\PYGZgt{}}\PYG{l+s+s2}{\PYGZdq{};\PYGZdq{}} \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n+nn}{Tokens}\PYG{p}{.}\PYG{n}{SEMICOLON}\PYG{p}{(}\PYG{n}{yypos}\PYG{p}{,}\PYG{n}{yypos+}\PYG{l+m+mi}{1}\PYG{p}{));}
+\end{Verbatim}

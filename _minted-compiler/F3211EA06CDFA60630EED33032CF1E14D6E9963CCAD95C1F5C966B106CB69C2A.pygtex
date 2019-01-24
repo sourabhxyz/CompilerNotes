@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kr}{val} \PYG{n+nv}{error} \PYG{p}{:} \PYG{n}{string} \PYG{n}{*} \PYG{n}{int} \PYG{n}{*} \PYG{n}{int} \PYG{p}{\PYGZhy{}\PYGZgt{}} \PYG{n}{unit} \PYG{p}{=} \PYG{k+kr}{fn}
+\PYG{p}{(}\PYG{n}{e}\PYG{p}{,}\PYG{n}{l1}\PYG{p}{,}\PYG{n}{l2}\PYG{p}{)} \PYG{p}{=\PYGZgt{}} \PYG{n+nn}{TextIO}\PYG{p}{.}\PYG{n}{output}\PYG{p}{(}\PYG{n+nn}{TextIO}\PYG{p}{.}\PYG{n}{stdOut}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}lex:line \PYGZdq{}}
+\PYG{n}{\PYGZca{}}\PYG{n+nn}{Int}\PYG{p}{.}\PYG{n}{toString} \PYG{n}{l1\PYGZca{}}\PYG{l+s+s2}{\PYGZdq{} l2=\PYGZdq{}}\PYG{n}{\PYGZca{}}\PYG{n+nn}{Int}\PYG{p}{.}\PYG{n}{toString} \PYG{n}{l2}
+\PYG{n}{\PYGZca{}}\PYG{l+s+s2}{\PYGZdq{}: \PYGZdq{}}\PYG{n}{\PYGZca{}e\PYGZca{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{k+kr}{val} \PYG{n+nv}{badCh} \PYG{p}{:} \PYG{n}{string} \PYG{n}{*} \PYG{n}{string} \PYG{n}{*} \PYG{n}{int} \PYG{n}{*} \PYG{n}{int} \PYG{p}{\PYGZhy{}\PYGZgt{}} \PYG{n}{unit} \PYG{p}{=} \PYG{k+kr}{fn}
+\PYG{p}{(}\PYG{n}{fileName}\PYG{p}{,}\PYG{n}{bad}\PYG{p}{,}\PYG{n}{line}\PYG{p}{,}\PYG{n}{col}\PYG{p}{)} \PYG{p}{=\PYGZgt{}}
+\PYG{n+nn}{TextIO}\PYG{p}{.}\PYG{n}{output}\PYG{p}{(}\PYG{n+nn}{TextIO}\PYG{p}{.}\PYG{n}{stdOut}\PYG{p}{,}\PYG{n}{fileName\PYGZca{}}\PYG{l+s+s2}{\PYGZdq{}[\PYGZdq{}}
+\PYG{n}{\PYGZca{}}\PYG{n+nn}{Int}\PYG{p}{.}\PYG{n}{toString} \PYG{n}{line\PYGZca{}}\PYG{l+s+s2}{\PYGZdq{}.\PYGZdq{}}\PYG{n}{\PYGZca{}}\PYG{n+nn}{Int}\PYG{p}{.}\PYG{n}{toString} \PYG{n}{col}
+\PYG{n}{\PYGZca{}}\PYG{l+s+s2}{\PYGZdq{}] Invalid character }\PYG{l+s+se}{\PYGZbs{}\PYGZdq{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{n}{\PYGZca{}bad\PYGZca{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}\PYGZdq{}\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{);}
+\end{Verbatim}

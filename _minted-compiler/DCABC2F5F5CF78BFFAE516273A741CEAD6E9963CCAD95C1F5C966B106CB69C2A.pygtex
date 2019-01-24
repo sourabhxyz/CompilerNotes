@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+m+mi}{65} \PYG{n}{\PYGZpc{}header} \PYG{p}{(}\PYG{k+kr}{functor} \PYG{n+nn}{MyLexFun}\PYG{p}{(}\PYG{k+kr}{structure} \PYG{n+nn}{Tokens}\PYG{p}{:} \PYG{n}{My\PYGZus{}TOKENS}\PYG{p}{));}
+\end{Verbatim}

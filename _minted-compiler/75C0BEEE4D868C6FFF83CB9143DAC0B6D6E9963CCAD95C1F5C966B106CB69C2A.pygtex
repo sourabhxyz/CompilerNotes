@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{l+m+mi}{5} \PYG{k+kr}{structure} \PYG{n+nn}{T} \PYG{p}{=} \PYG{n}{Tokens}
+    \PYG{l+m+mi}{6} \PYG{k+kr}{type} \PYG{k+kt}{pos} \PYG{p}{=} \PYG{n}{int} \PYG{c+cm}{(* Position in file *)}
+    \PYG{l+m+mi}{7} \PYG{k+kr}{type} \PYG{k+kt}{svalue} \PYG{p}{=} \PYG{n+nn}{T}\PYG{p}{.}\PYG{n}{svalue}
+    \PYG{l+m+mi}{8} \PYG{k+kr}{type} \PYG{p}{(}\PYG{err}{’}\PYG{n}{a}\PYG{p}{,}\PYG{err}{’}\PYG{n}{b}\PYG{p}{)} \PYG{k+kt}{token} \PYG{p}{=} \PYG{p}{(}\PYG{err}{’a,’b)} \PYG{n+nn}{T}\PYG{p}{.}\PYG{n}{token}
+    \PYG{l+m+mi}{9} \PYG{k+kr}{type} \PYG{k+kt}{lexresult} \PYG{p}{=} \PYG{p}{(}\PYG{n}{svalue}\PYG{p}{,}\PYG{n}{pos}\PYG{p}{)} \PYG{n}{token}
+    \PYG{l+m+mi}{10} \PYG{k+kr}{type} \PYG{k+kt}{lexarg} \PYG{p}{=} \PYG{n}{string}
+    \PYG{l+m+mi}{11} \PYG{k+kr}{type} \PYG{k+kt}{arg} \PYG{p}{=} \PYG{n}{lexarg}
+    \PYG{l+m+mi}{12} \PYG{k+kr}{val} \PYG{n+nv}{linep} \PYG{p}{=} \PYG{n}{ref} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{c+cm}{(* Line pointer *)}
+\end{Verbatim}

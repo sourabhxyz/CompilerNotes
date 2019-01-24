@@ -1,0 +1,27 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kr}{datatype} \PYG{k+kt}{lexresult}\PYG{p}{=} \PYG{n+nc}{DIV} \PYG{p}{|} \PYG{n+nc}{EOF} \PYG{p}{|} \PYG{n+nc}{EOS} \PYG{p}{|} \PYG{n+nc}{ID} \PYG{k+kr}{of} \PYG{n}{string} \PYG{p}{|} \PYG{n+nc}{LPAREN} \PYG{p}{|}
+\PYG{n+nc}{NUM} \PYG{k+kr}{of} \PYG{n}{int} \PYG{p}{|} \PYG{n+nc}{PLUS} \PYG{p}{|} \PYG{n+nc}{PRINT} \PYG{p}{|} \PYG{n+nc}{RPAREN} \PYG{p}{|} \PYG{n+nc}{SUB} \PYG{p}{|} \PYG{n+nc}{TIMES}
+
+\PYG{k+kr}{val} \PYG{n+nv}{linenum} \PYG{p}{=} \PYG{n}{ref} \PYG{l+m+mi}{1}
+\PYG{k+kr}{val} \PYG{n+nv}{error} \PYG{p}{=} \PYG{k+kr}{fn} \PYG{n}{x} \PYG{p}{=\PYGZgt{}} \PYG{n}{output}\PYG{p}{(}\PYG{n}{std\PYGZus{}out}\PYG{p}{,}\PYG{n}{x} \PYG{n}{\PYGZca{}} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{k+kr}{val} \PYG{n+nv}{eof} \PYG{p}{=} \PYG{k+kr}{fn} \PYG{p}{()} \PYG{p}{=\PYGZgt{}} \PYG{n}{EOF}
+\PYG{n}{\PYGZpc{}\PYGZpc{}}
+\PYG{n}{\PYGZpc{}}\PYG{k+kr}{structure} \PYG{n+nn}{CalcLex}
+\PYG{n+nn}{alpha}\PYG{p}{=[}\PYG{n}{A\PYGZhy{}Za\PYGZhy{}z}\PYG{p}{];}
+\PYG{n}{digit}\PYG{p}{=[}\PYG{l+m+mi}{0}\PYG{n}{\PYGZhy{}}\PYG{l+m+mi}{9}\PYG{p}{];}
+\PYG{n}{ws} \PYG{p}{=} \PYG{p}{[}\PYG{n}{\PYGZbs{}} \PYG{n}{\PYGZbs{}t}\PYG{p}{];}
+\PYG{n}{\PYGZpc{}\PYGZpc{}}
+\PYG{n}{\PYGZbs{}n}       \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{inc} \PYG{n}{linenum}\PYG{p}{;} \PYG{n}{lex}\PYG{p}{());}
+\PYG{p}{\PYGZob{}}\PYG{n}{ws}\PYG{p}{\PYGZcb{}}\PYG{n}{+}    \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{lex}\PYG{p}{());}
+\PYG{l+s+s2}{\PYGZdq{}/\PYGZdq{}}      \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{DIV}\PYG{p}{);}
+\PYG{l+s+s2}{\PYGZdq{};\PYGZdq{}}      \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{EOS}\PYG{p}{);}
+\PYG{l+s+s2}{\PYGZdq{}(\PYGZdq{}}      \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{LPAREN}\PYG{p}{);}
+\PYG{c+cm}{(* revfold (((\PYGZsq{}a * \PYGZsq{}b)\PYGZhy{}\PYGZgt{}\PYGZsq{}b) \PYGZhy{}\PYGZgt{}\PYGZsq{}a list \PYGZhy{}\PYGZgt{}\PYGZsq{}b \PYGZhy{}\PYGZgt{} \PYGZsq{}b) is like fold done from backwards (in this case from left) explode will convert the string to list of characters. *)}
+\PYG{p}{\PYGZob{}}\PYG{n}{digit}\PYG{p}{\PYGZcb{}}\PYG{n}{+} \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{NUM} \PYG{p}{(}\PYG{n}{revfold} \PYG{p}{(}\PYG{k+kr}{fn}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,}\PYG{n}{r}\PYG{p}{)=\PYGZgt{}}\PYG{n}{ord}\PYG{p}{(}\PYG{n}{a}\PYG{p}{)}\PYG{n}{\PYGZhy{}ord}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}0\PYGZdq{}}\PYG{p}{)}\PYG{n}{+}\PYG{l+m+mi}{10}\PYG{n}{*r}\PYG{p}{)} \PYG{p}{(}\PYG{n}{explode} \PYG{n}{yytext}\PYG{p}{)} \PYG{l+m+mi}{0}\PYG{p}{));}
+\PYG{l+s+s2}{\PYGZdq{})\PYGZdq{}}      \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{RPAREN}\PYG{p}{);}
+\PYG{l+s+s2}{\PYGZdq{}+\PYGZdq{}}      \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{PLUS}\PYG{p}{);}
+\PYG{p}{\PYGZob{}}\PYG{n}{alpha}\PYG{p}{\PYGZcb{}}\PYG{n}{+} \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{k+kr}{if} \PYG{n}{yytext}\PYG{p}{=}\PYG{l+s+s2}{\PYGZdq{}print\PYGZdq{}} \PYG{k+kr}{then} \PYG{n}{PRINT} \PYG{k+kr}{else} \PYG{n}{ID} \PYG{n}{yytext}\PYG{p}{);}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZdq{}}      \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{SUB}\PYG{p}{);}
+\PYG{l+s+s2}{\PYGZdq{}*\PYGZdq{}}      \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{TIMES}\PYG{p}{);}
+\PYG{err}{.}        \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n}{error} \PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}calc: ignoring bad character \PYGZdq{}}\PYG{n}{\PYGZca{}yytext}\PYG{p}{);} \PYG{n}{lex}\PYG{p}{());}
+\end{Verbatim}

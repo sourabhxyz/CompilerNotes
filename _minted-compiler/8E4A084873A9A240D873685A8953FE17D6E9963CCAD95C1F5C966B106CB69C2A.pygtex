@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{\PYGZlt{}INITIAL\PYGZgt{}}\PYG{p}{\PYGZob{}}\PYG{n}{real}\PYG{p}{\PYGZcb{}} \PYG{p}{=\PYGZgt{}} \PYG{p}{(}\PYG{n+nn}{Tokens}\PYG{p}{.}\PYG{n}{REAL}\PYG{p}{(}\PYG{n}{yytext}\PYG{p}{,}
+\PYG{n}{yypos}\PYG{p}{,}
+\PYG{n}{yypos+size} \PYG{n}{yytext}\PYG{p}{));}
+\end{Verbatim}

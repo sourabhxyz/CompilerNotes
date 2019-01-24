@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+        \PYG{n}{sml\PYGZhy{}lex} \PYG{n+nn}{myfile}\PYG{p}{.}\PYG{n}{lex}
+        \PYG{n}{The} \PYG{n}{output} \PYG{n}{file} \PYG{n}{will} \PYG{n}{be} \PYG{n+nn}{myfile}\PYG{p}{.}\PYG{n+nn}{lex}\PYG{p}{.}\PYG{n+nn}{sml}\PYG{p}{.}\PYG{err}{ }\PYG{n}{The} \PYG{n}{extension} \PYG{err}{.lex} \PYG{n}{is} \PYG{n}{not} \PYG{n}{required} \PYG{n}{but} \PYG{n}{is} \PYG{n+nn}{recommended}\PYG{p}{.}
+\end{Verbatim}
