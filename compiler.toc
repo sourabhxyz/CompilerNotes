@@ -1,2 +1,2 @@
-\contentsline {section}{\numberline {1}Intro}{1}{section.1}
-\contentsline {section}{\numberline {2}Parsing}{4}{section.2}
+\contentsline {section}{\numberline {1}Intro And ML Lex}{1}{section.1}
+\contentsline {section}{\numberline {2}Parsing}{3}{section.2}

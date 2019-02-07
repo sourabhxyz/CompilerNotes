@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+m+mi}{146} \PYG{n}{life}\PYG{p}{:} \PYG{n}{year} \PYG{n}{HYPHEN} \PYG{n}{year}
+\PYG{l+m+mi}{147} \PYG{p}{((}\PYG{n}{Life} \PYG{p}{(}\PYG{n}{year1}\PYG{p}{,}\PYG{n}{year2}\PYG{p}{,}\PYG{n}{year1left}\PYG{p}{,}\PYG{n}{year1right}\PYG{p}{)))}
+\PYG{l+m+mi}{148} \PYG{n}{year}\PYG{p}{:} \PYG{n}{YMD} \PYG{n}{COLON} \PYG{n}{YMD} \PYG{n}{COLON} \PYG{n}{YMD}
+\PYG{l+m+mi}{149} \PYG{p}{((}\PYG{n}{Year} \PYG{p}{(}\PYG{n}{YMD1}\PYG{p}{,}\PYG{n}{YMD2}\PYG{p}{,}\PYG{n}{YMD3}\PYG{p}{,}\PYG{n}{YMD1left}\PYG{p}{,}\PYG{n}{YMD1right}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+m+mi}{170}\PYG{err}{.}  \PYG{n}{The} \PYG{n}{corresponding} \PYG{n}{rule} \PYG{n}{becomes}\PYG{p}{:}
+\PYG{l+m+mi}{175} \PYG{n}{fun\PYGZus{}appl}\PYG{p}{:}   \PYG{c+cm}{(* Function application has precedence}
+\PYG{c+cm}{176 and associativity defined by dummy}
+\PYG{c+cm}{177 terminal FUN\PYGZus{}APPL. *)}
+\PYG{l+m+mi}{178} \PYG{n}{name} \PYG{n}{e}     \PYG{n}{\PYGZpc{}prec} \PYG{n}{FUN\PYGZus{}APPL}  \PYG{p}{((}\PYG{n}{name}\PYG{p}{,}\PYG{n}{e}\PYG{p}{))}
+\end{Verbatim}

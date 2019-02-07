@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.7)  20 JAN 2019 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.7)  6 FEB 2019 14:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1065,26 +1065,26 @@ runsystem(rm compiler.aex)...executed.
  (./compiler.aux)
 \openout1 = `compiler.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 35.
-LaTeX Font Info:    Try loading font information for LUC+nanummj on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for LUC+nanummj on input line 44.
  (/usr/share/texlive/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1147,9 +1147,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 35.
+(lastpage)             ! on input line 44.
 \AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 44.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1157,187 +1157,127 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count175
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
  (./compiler.out) (./compiler.out)
 \@outlinefile=\write7
 \openout7 = `compiler.out'.
 
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./compiler.toc)
 \tf@toc=\write8
 \openout8 = `compiler.toc'.
 
-<slpg.png, id=18, 1334.9875pt x 348.30125pt>
-File: slpg.png Graphic file (type png)
-<use slpg.png>
-Package pdftex.def Info: slpg.png  used on input line 74.
-(pdftex.def)             Requested size: 275.97604pt x 72.00276pt.
-
-Overfull \hbox (4.98439pt too wide) in paragraph at lines 74--75
-[][] 
- []
-
-<slpt.png, id=20, 1171.37625pt x 679.53876pt>
-File: slpt.png Graphic file (type png)
-<use slpt.png>
-Package pdftex.def Info: slpt.png  used on input line 76.
-(pdftex.def)             Requested size: 275.9884pt x 160.10638pt.
-
-Overfull \hbox (4.99675pt too wide) in paragraph at lines 76--77
-[][] 
- []
-
-\openout3 = `compiler.pyg'.
-
-(./_minted-compiler/default-pyg-prefix.pygstyle) (./_minted-compiler/default.pygstyle) (./_minted-compiler/BB25BC35AA72D5F3C4430F7AD734DC81D6E9963CCAD95C1F5C966B106CB69C2A.pygtex
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
-)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 105.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./slpg.png> <./slpt.png>]
-<reg.PNG, id=38, 839.5365pt x 227.04825pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+<reg.PNG, id=17, 839.5365pt x 227.04825pt>
 File: reg.PNG Graphic file (type png)
 <use reg.PNG>
-Package pdftex.def Info: reg.PNG  used on input line 115.
+Package pdftex.def Info: reg.PNG  used on input line 66.
 (pdftex.def)             Requested size: 275.98465pt x 74.6386pt.
 
-Overfull \hbox (4.993pt too wide) in paragraph at lines 115--116
+Overfull \hbox (4.993pt too wide) in paragraph at lines 66--67
 [][] 
  []
 
-<aut.PNG, id=39, 872.66025pt x 370.986pt>
-File: aut.PNG Graphic file (type png)
-<use aut.PNG>
-Package pdftex.def Info: aut.PNG  used on input line 128.
-(pdftex.def)             Requested size: 275.98132pt x 117.32538pt.
-
-Overfull \hbox (4.98967pt too wide) in paragraph at lines 128--129
-[][] 
- []
-
-<cfa.PNG, id=40, 823.27576pt x 485.4135pt>
-File: cfa.PNG Graphic file (type png)
-<use cfa.PNG>
-Package pdftex.def Info: cfa.PNG  used on input line 130.
-(pdftex.def)             Requested size: 275.99066pt x 162.72748pt.
-
-Overfull \hbox (4.99901pt too wide) in paragraph at lines 130--131
-[][] 
- []
-
-<mat.PNG, id=41, 719.0865pt x 410.13225pt>
-File: mat.PNG Graphic file (type png)
-<use mat.PNG>
-Package pdftex.def Info: mat.PNG  used on input line 132.
-(pdftex.def)             Requested size: 275.9988pt x 157.4164pt.
-
-Overfull \hbox (5.00714pt too wide) in paragraph at lines 132--133
-[][] 
- []
-
-<rtnfa.PNG, id=42, 833.514pt x 473.97075pt>
+<rtnfa.PNG, id=19, 833.514pt x 473.97075pt>
 File: rtnfa.PNG Graphic file (type png)
 <use rtnfa.PNG>
-Package pdftex.def Info: rtnfa.PNG  used on input line 134.
+Package pdftex.def Info: rtnfa.PNG  used on input line 80.
 (pdftex.def)             Requested size: 275.9889pt x 156.93878pt.
 
-Overfull \hbox (4.99725pt too wide) in paragraph at lines 134--135
+Overfull \hbox (4.99725pt too wide) in paragraph at lines 80--81
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<nfa1.PNG, id=43, 869.04675pt x 310.15875pt>
+<nfa1.PNG, id=20, 869.04675pt x 310.15875pt>
 File: nfa1.PNG Graphic file (type png)
 <use nfa1.PNG>
-Package pdftex.def Info: nfa1.PNG  used on input line 136.
+Package pdftex.def Info: nfa1.PNG  used on input line 82.
 (pdftex.def)             Requested size: 275.9922pt x 98.50034pt.
 
-Overfull \hbox (5.00055pt too wide) in paragraph at lines 136--137
+Overfull \hbox (5.00055pt too wide) in paragraph at lines 82--83
 [][] 
  []
 
-<nfa2.PNG, id=44, 869.04675pt x 458.9145pt>
+<nfa2.PNG, id=21, 869.04675pt x 458.9145pt>
 File: nfa2.PNG Graphic file (type png)
 <use nfa2.PNG>
-Package pdftex.def Info: nfa2.PNG  used on input line 138.
+Package pdftex.def Info: nfa2.PNG  used on input line 84.
 (pdftex.def)             Requested size: 275.9922pt x 145.74225pt.
 
-Overfull \hbox (5.00055pt too wide) in paragraph at lines 138--139
+Overfull \hbox (5.00055pt too wide) in paragraph at lines 84--85
 [][] 
  []
 
-<lex.PNG, id=45, 831.105pt x 490.83376pt>
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./reg.PNG> <./rtnfa.PNG> <./nfa1.PNG> <./nfa2.PNG>]
+<lex.PNG, id=40, 831.105pt x 490.83376pt>
 File: lex.PNG Graphic file (type png)
 <use lex.PNG>
-Package pdftex.def Info: lex.PNG  used on input line 157.
+Package pdftex.def Info: lex.PNG  used on input line 96.
 (pdftex.def)             Requested size: 275.99019pt x 162.9942pt.
 
-Overfull \hbox (4.99854pt too wide) in paragraph at lines 157--158
+Overfull \hbox (4.99854pt too wide) in paragraph at lines 96--97
 [][] 
  []
 
-[2 <./reg.PNG> <./aut.PNG> <./cfa.PNG> <./mat.PNG> <./rtnfa.PNG> <./nfa1.PNG> <./nfa2.PNG> <./lex.PNG>]
-<lex2.PNG, id=59, 863.02425pt x 425.79076pt>
+<lex2.PNG, id=41, 863.02425pt x 425.79076pt>
 File: lex2.PNG Graphic file (type png)
 <use lex2.PNG>
-Package pdftex.def Info: lex2.PNG  used on input line 185.
+Package pdftex.def Info: lex2.PNG  used on input line 124.
 (pdftex.def)             Requested size: 275.98904pt x 136.16486pt.
 
-Overfull \hbox (4.99739pt too wide) in paragraph at lines 185--186
+Overfull \hbox (4.99739pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
 \openout3 = `compiler.pyg'.
 
-(./_minted-compiler/3A8442B435D6D7F4F8F8A41CF146347FD6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
+(./_minted-compiler/default-pyg-prefix.pygstyle) (./_minted-compiler/default.pygstyle) (./_minted-compiler/3A8442B435D6D7F4F8F8A41CF146347FD6E9963CCAD95C1F5C966B106CB69C2A.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+)
 \openout3 = `compiler.pyg'.
 
  (./_minted-compiler/8E4A084873A9A240D873685A8953FE17D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
-<lex3.PNG, id=60, 705.837pt x 190.91325pt>
+<lex3.PNG, id=42, 705.837pt x 190.91325pt>
 File: lex3.PNG Graphic file (type png)
 <use lex3.PNG>
-Package pdftex.def Info: lex3.PNG  used on input line 225.
+Package pdftex.def Info: lex3.PNG  used on input line 166.
 (pdftex.def)             Requested size: 275.99692pt x 74.65103pt.
 
-Overfull \hbox (5.00526pt too wide) in paragraph at lines 225--226
+Overfull \hbox (5.00526pt too wide) in paragraph at lines 166--167
 [][] 
  []
 
-<lex4.PNG, id=61, 751.608pt x 373.395pt>
+<lex4.PNG, id=43, 751.608pt x 373.395pt>
 File: lex4.PNG Graphic file (type png)
 <use lex4.PNG>
-Package pdftex.def Info: lex4.PNG  used on input line 227.
+Package pdftex.def Info: lex4.PNG  used on input line 168.
 (pdftex.def)             Requested size: 275.99185pt x 137.11133pt.
 
-Overfull \hbox (5.0002pt too wide) in paragraph at lines 227--228
+Overfull \hbox (5.0002pt too wide) in paragraph at lines 168--169
 [][] 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \openout3 = `compiler.pyg'.
 
- (./_minted-compiler/9404832444C01F66A807318271965A19C6D1A8449133C1CB486D8E1FB38DC4E2.pygtex)
+(./_minted-compiler/24A64B367088CEB6DC40E4E1B038377BC6D1A8449133C1CB486D8E1FB38DC4E2.pygtex)
 \openout3 = `compiler.pyg'.
 
  (./_minted-compiler/157E025D873EB7AA209DB6F872EAA268C6D1A8449133C1CB486D8E1FB38DC4E2.pygtex)
@@ -1352,10 +1292,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  (./_minted-compiler/FB445094059F02AA337DDE0B71871793D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
 \openout3 = `compiler.pyg'.
 
- (./_minted-compiler/75C0BEEE4D868C6FFF83CB9143DAC0B6D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
+ (./_minted-compiler/75C0BEEE4D868C6FFF83CB9143DAC0B6D6E9963CCAD95C1F5C966B106CB69C2A.pygtex [2 <./lex.PNG> <./lex2.PNG> <./lex3.PNG> <./lex4.PNG>])
 \openout3 = `compiler.pyg'.
 
- (./_minted-compiler/EA027CB7194463052289E5DDFA8A6983D6E9963CCAD95C1F5C966B106CB69C2A.pygtex [3 <./lex2.PNG> <./lex3.PNG> <./lex4.PNG>])
+ (./_minted-compiler/EA027CB7194463052289E5DDFA8A6983D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
 \openout3 = `compiler.pyg'.
 
  (./_minted-compiler/F3211EA06CDFA60630EED33032CF1E14D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
@@ -1376,32 +1316,107 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  (./_minted-compiler/1E63D53D84D2716E9A63FEEB14725125D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
 \openout3 = `compiler.pyg'.
 
- (./_minted-compiler/9EE1FC618876C8F3C78E02EDA422ECC9D6E9963CCAD95C1F5C966B106CB69C2A.pygtex) 
+ (./_minted-compiler/9EE1FC618876C8F3C78E02EDA422ECC9D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
+<slbg.png, id=53, 1530.71875pt x 345.29pt>
+File: slbg.png Graphic file (type png)
+<use slbg.png>
+Package pdftex.def Info: slbg.png  used on input line 362.
+(pdftex.def)             Requested size: 275.98462pt x 62.25488pt.
+
+Overfull \hbox (4.99297pt too wide) in paragraph at lines 362--363
+[][] 
+ []
+
+[3 <./slbg.png>]
+<pp.png, id=60, 1430.34375pt x 908.39375pt>
+File: pp.png Graphic file (type png)
+<use pp.png>
+Package pdftex.def Info: pp.png  used on input line 393.
+(pdftex.def)             Requested size: 275.98041pt x 175.27177pt.
+
+Overfull \hbox (4.98875pt too wide) in paragraph at lines 393--394
+[][] 
+ []
+
+<pp2.png, id=61, 640.3925pt x 816.04875pt>
+File: pp2.png Graphic file (type png)
+<use pp2.png>
+Package pdftex.def Info: pp2.png  used on input line 395.
+(pdftex.def)             Requested size: 275.98878pt x 351.69104pt.
+
+Overfull \hbox (4.99713pt too wide) in paragraph at lines 395--396
+[][] 
+ []
+
+<first.png, id=62, 1392.20125pt x 292.09125pt>
+File: first.png Graphic file (type png)
+<use first.png>
+Package pdftex.def Info: first.png  used on input line 397.
+(pdftex.def)             Requested size: 275.99234pt x 57.90465pt.
+
+Overfull \hbox (5.00069pt too wide) in paragraph at lines 397--398
+[][] 
+ []
+
+<follow.png, id=63, 793.96625pt x 944.52875pt>
+File: follow.png Graphic file (type png)
+<use follow.png>
+Package pdftex.def Info: follow.png  used on input line 403.
+(pdftex.def)             Requested size: 275.9903pt x 328.32727pt.
+
+Overfull \hbox (4.99864pt too wide) in paragraph at lines 403--404
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+\openout3 = `compiler.pyg'.
+
+ (./_minted-compiler/43F347D48A346A030D8D5BF5ED1C4C55C6D1A8449133C1CB486D8E1FB38DC4E2.pygtex) [4 <./pp.png> <./pp2.png> <./first.png> <./follow.png>]
+\openout3 = `compiler.pyg'.
+
+ (./_minted-compiler/58DA43946F085603A6A891D90A16AFE1D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
+\openout3 = `compiler.pyg'.
+
+ (./_minted-compiler/C1241FA7894685C7E4EBC52A6D6DBD90D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
+\openout3 = `compiler.pyg'.
+
+ (./_minted-compiler/56CECB2DE9A5FD3BAEDCD6651357CC55D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
+\openout3 = `compiler.pyg'.
+
+ (./_minted-compiler/AB662497B2B81D7F0EBED6B6E64A4D28D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
+\openout3 = `compiler.pyg'.
+
+ (./_minted-compiler/CE1C5A409267E9C113D9C7E520C61F0BD6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
+\openout3 = `compiler.pyg'.
+
+ (./_minted-compiler/7ED78D54797E4067778F08F938656564D6E9963CCAD95C1F5C966B106CB69C2A.pygtex) 
 AED: lastpage setting LastPage
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 422.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 422.
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 831.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 831.
  (./compiler.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 422.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 422.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 831.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 831.
 Package rerunfilecheck Info: File `compiler.out' has not changed.
-(rerunfilecheck)             Checksum: AD4D5CE7D58CA9A4A12CF11DBFBEA742;82.
+(rerunfilecheck)             Checksum: 8313953E575027E1565A51FAF7A81E12;93.
 runsystem(rm compiler.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23469 strings out of 492982
- 459016 string characters out of 6134897
- 618081 words of memory out of 5000000
- 26440 multiletter control sequences out of 15000+600000
- 10448 words of font info for 42 fonts, out of 8000000 for 9000
+ 23501 strings out of 492982
+ 461104 string characters out of 6134897
+ 623346 words of memory out of 5000000
+ 26453 multiletter control sequences out of 15000+600000
+ 10800 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,71p,889b,699s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on compiler.pdf (4 pages, 1919383 bytes).
+ 55i,11n,71p,889b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on compiler.pdf (5 pages, 1744592 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

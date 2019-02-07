@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+m+mi}{142} \PYG{k+kr}{datatype} \PYG{k+kt}{Life} \PYG{p}{=} \PYG{n+nc}{Life} \PYG{k+kr}{of} \PYG{n}{Year} \PYG{n}{*} \PYG{n}{Year}      \PYG{n}{*} \PYG{n}{int} \PYG{n}{*} \PYG{n}{int}
+\PYG{l+m+mi}{143} \PYG{k+kr}{and} \PYG{k+kt}{Year} \PYG{p}{=} \PYG{n+nc}{Year} \PYG{k+kr}{of} \PYG{n}{int} \PYG{n}{*} \PYG{n}{int} \PYG{n}{*} \PYG{n}{int}  \PYG{n}{*} \PYG{n}{int} \PYG{n}{*} \PYG{n}{int}
+\end{Verbatim}
