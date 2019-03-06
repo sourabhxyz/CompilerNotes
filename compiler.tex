@@ -22,6 +22,9 @@
 \newcommand{\iph}[2]{
     \includegraphics[width=#1\textwidth,height=#1\textheight,keepaspectratio]{#2}
 }
+\newcommand{\ph}[1]{
+    \includegraphics[width=0.5\textwidth,height=0.5\textheight,keepaspectratio]{#1}
+}
 \newcommand{\ita}[1]{
     \textit{#1}
 }
@@ -177,7 +180,7 @@ Certain rules
 \begin{itemize}
     \item     An individual character stands for itself, except for the reserved characters 
     \begin{minted}{cpp}
-     ? * + | ( ) ^ $ / ; . = < > [ { " \
+     ? * + | ( ) ^ $ / ; . = < > [ { " \  $
 
     \end{minted}
 
@@ -828,4 +831,385 @@ declaration,  and then defining the required precedence and associativity on lin
 177 terminal FUN_APPL. *)
 178 name e     %prec FUN_APPL  ((name,e))
 \end{minted}
+
+\textbf{Error recovery in predictive parsing (LL (1)):}
+
+\iph{0.5}{erpp}
+
+\subsection{LR(0)}
+
+\iph{0.5}{lr0}
+
+Note: 'X' in Goto can be either a terminal or non terminal
+ 
+\iph{0.5}{lr01}
+
+\iph{0.5}{lr02}
+
+\subsection{SLR}
+
+\iph{0.5}{slr}
+
+\ph{slr2}
+
+\subsection{LR(1)}
+
+\ph{lr1}
+
+\ph{lr2}
+
+\ph{hier}
+
+\ph{yaccpref}
+
+\ph{yaccpref2}
+
+\ph{yaccpref3}
+
+\ph{yaccpref4}
+
+\ph{yaccpref5}
+
+Popping states from the stack can lead to seemingly "im
+
+\ph{err}
+
+\ph{gerr}
+
+Read page 79, 80, 81 from text.
+
+\section{AST}
+However, an LR parser does perform reductions, and associated semantic
+actions, in a deterministic and predictable order: a bottom-up, left-to-right
+traversal of the parse tree. In other words, the (virtual) parse tree is traversed
+in postorder.
+
+It is possible to write an entire compiler that fits within the semantic action
+phrases of an ML-Yacc parser. However, such a compiler is difficult to read
+and maintain. And this approach constrains the compiler to analyze the 
+program in exactly the order it is parsed.
+
+Technically, a parse tree has exactly one leaf for each token of the input and one internal node for each
+grammar rule reduced during the parse.
+Such a parse tree, which we will call a concrete parse tree representing the
+concrete syntax of the source language, is inconvenient to use directly. Many
+of the punctuation tokens are redundant and convey no information - they are
+useful in the input string, but once the parse tree is built, the structure of the
+tree conveys the structuring information more conveniently.
+Furthermore, the structure of the parse tree depends too much on the 
+grammar! The grammar transformations shown in Chapter 3 - factoring, 
+elimination of left recursion, elimination of ambiguity - involve the introduction of
+extra nonterminal symbols and extra grammar productions for technical 
+purposes. These details should be confined to the parsing phase and should not
+clutter the semantic analysis.
+
+An abstract syntax makes a clean interface between the parser and the
+later phases of a compiler (or, in fact, for the later phases of other kinds of
+program-analysis tools such as dependency analyzers). The abstract syntax
+tree conveys the phrase structure of the source program, with all parsing 
+issues resolved but without any semantic interpretation.
+
+So the parser uses the 
+concrete syntax to build a parse tree for the abstract syntax.
+The semantic analysis phase takes this abstract syntax tree; it is not bothered by
+the ambiguity of the grammar, since it already has the parse tree!
+
+The lexer must pass the source-file positions of the beginning and end of
+each token to the parser. The ML-Yacc parser makes these positions available
+(in the semantic action fragments): for each terminal or nonterminal such as
+FOO or FOOl on the right-hand side of a rule, the ML variable FOOlef t or
+FOOllef t stands for the left-end position of the terminal or nonterminal, and
+FOOright or FOOl right stands for the right-end position.
+
+The Tiger language treats adjacent function declarations as (possibly) 
+mutually recursive. The FunctionDec constructor of the abstract syntax takes
+a list of function declarations, not just a single function. The intent is that
+this list is a maximal consecutive sequence of function declarations. Thus,
+functions declared by the same FunctionDec can be mutually recursive.
+
+The TypeDec constructor also takes a list of type declarations, for the
+same reason;
+
+There is no abstract syntax for "\&" and "$\vert$" expressions; instead, $e_1\&e_2$ is
+translated as if $e_1$ then $e_2$ else 0, and $e_1 \vert e_2$ is translated as though it had
+been written if $e_1 then 1 else e_2$
+Similarly, unary negation (-x) should be represented as subtraction (0 -
+x) in the abstract syntax. Also, where the body of a Let Exp has multiple
+statements, we must use a SeqExp. An empty statement is represented by
+SeqExp[].
+
+The semantic analysis phase of the compiler will need to keep track of
+which local variables are used from within nested functions. The escape
+component of a VarDec, ForExp, or formal parameter is used to keep track
+of this. The parser should leave each escape set to true, which is a 
+conservative approximation. The field type is used for both formal parameters
+and record fields; escape has meaning for formal parameters, but for record
+fields it can be ignored.
+Having the escape fields in the abstract syntax is a "hack," since 
+escaping is a global, nonsyntactic property. But leaving escape out of the Absyn
+would require another data structure for describing escapes.
+\section{Semantic Analysis}
+This phase is characterized by the maintenance of symbol tables (also called
+environments) mapping identifiers to their types and locations.
+
+\ph{sem1}
+
+\ph{sem2}
+
+\ph{sem3}
+
+\ph{sem4}
+
+
+\section{Activation Records}
+For the remainder of this chapter we will consider languages with stackable
+local variables and postpone discussion of higher-order functions to 
+Chapter 15.
+
+\ph{r1}
+
+\ph{r2}
+
+\ph{r3}
+
+\ph{r4}
+
+\ph{r5}
+
+\ph{r6}
+
+\ph{r7}
+
+\ph{r8}
+
+Figure 6.2 shows a typical stack frame layout. The frame has a set of 
+incoming arguments (technically these are part of the previous frame but they
+are at a known offset from the frame pointer) passed by the caller. The 
+return address is created by the CALL instruction and tells where (within the
+calling function) control should return upon completion of the current 
+function. Some local variables are in this frame; other local variables are kept in
+machine registers. Sometimes a local variable kept in a register needs to be
+saved into the frame to make room for other uses of the register; there is an
+area in the frame for this purpose. Finally, when the current function calls
+other functions, it can use the outgoing argument space to pass parameters.
+
+Suppose a function g(...) calls the function f($a_1, \dots , a_n$). We say g is the
+caller and f is the callee.
+On entry to f, the stack pointer points to the first
+argument that g passes to f. On entry, f allocates a frame by simply 
+subtracting the frame size from the stack pointer SP. The old SP becomes the current frame pointer FP.
+
+FP is a
+"fictional" register whose value is always SP+framesize.
+Why talk about a frame pointer at all? Why not just refer to all variables,
+parameters, etc. by their offset from SP, if the frame size is constant? The
+frame size is not known until quite late in the compilation process, when the
+number of memory-resident temporaries and saved registers is determined.
+
+Suppose a function f is using register r to hold a local variable and calls procedure g, which also uses r for
+its own calculations. Then r must be saved (stored into a stack frame) before
+g uses it and restored (fetched back from the frame) after g is finished using
+it. But is it f's responsibility to save and restore the register, or g's? We say
+that r is a caller-save register if the caller (in this case, f) must save and 
+restore the register, and r is callee-save if it is the responsibility of the callee
+(in this case, g).
+
+therefore the
+first k arguments (for k = 4 or k = 6, typically) of a function are passed in
+registers $r_p, \dots, r_{p+k - 1}$ and the rest of the arguments are passed in memory.
+
+\ph{r9}
+
+\ph{r10}
+
+\ph{r11}
+
+To resolve the contradiction that
+parameters are passed in registers, but have addresses too, the first k 
+parameters are passed in registers; but any parameter whose address is taken must
+be written to a memory location on entry to the function. To satisfy printf,
+the memory locations into which register arguments are written must all be
+consecutive with the memory locations in which arguments k + 1, k + 2, etc.
+are written. Therefore, C programs can't have some of the arguments saved
+in one place and some saved in another - they must all be saved contiguously.
+
+When function g calls function f, eventually f must return. It needs to know
+where to go back to. If the call instruction within g is at address a, then
+(usually) the right place to return to is a + 1, the next instruction in g. This is
+called the return address.
+
+On modern machines, the call instruction merely puts the return address
+(the address of the instruction after the call) in a designated register. A non-
+leaf procedure will then have to write it to the stack (unless interprocedural
+register allocation is used), but a leaf procedure will not.
+
+Many of the local variables will be allocated to registers, as will the
+intermediate results of expression evaluation. Values are written to memory
+(in the stack frame) only when necessary for one of these reasons:
+
+\ph{r12}
+
+We will say that a variable escapes if it is passed by reference, its address
+is taken (using C's \& operator), or it is accessed from a nested function.
+
+Unfortunately, the conditions in our list don't manifest
+themselves early enough. When the compiler first encounters the declaration
+of a variable, it doesn't yet know whether the variable will ever be passed
+by reference, accessed in a nested procedure, or have its address taken; and
+doesn't know how many registers the calculation of expressions will require
+An industrial-strength compiler must assign provisional locations
+to all formals and locals, and decide later which of them should really go in registers.
+
+In languages that allow nested function declarations, the inner functions may use variables declared in outer functions. This
+language feature is called block structure.
+
+There are several methods to allow inner functions to access outer ones:
+
+\ph{r13}
+
+I will describe in detail only the method of static links.
+
+\ph{arpb}
+
+\ph{r14}
+
+\ph{r15}
+
+The type frame holds information about formal parameters and local 
+variables allocated in this frame. To make a new frame for a function f with k
+formal parameters, call newFrame \{name=f formals=l\}, where l is a list
+of k booleans: true for each parameter that escapes and false for each
+parameter that does not. The result will be a frame object.
+
+The access type describes formals and locals that may be in the frame or
+in registers.
+
+\ph{r16}
+
+The Frame. formals interface function extracts a list of it "accesses" 
+denoting the locations where the formal parameters will be kept at run time, as
+seen from inside the callee. Parameters may be seen differently by the caller.
+For example, if parameters are passed on the stack, the caller
+may put a parameter at offset 4 from the stack pointer, but the callee sees it at
+offset 4 from the frame pointer. Or the caller may put a parameter into register
+6, but the callee may want to move it out of the way and always access it from register 13.
+
+because of this "shift of view" newFrame must calculate two things:
+• How the parameter will be seen from inside the function (in a register, or in a
+frame location);
+• What instructions must be produced to implement the "view shift."
+
+Some local variables are kept in the frame; others are kept in registers. To
+allocate a new local variable in a frame f, the semantic analysis phase calls
+Frame.allocLocal(f)(true). This returns an InFrame access with an offset from the frame pointer.
+The boolean argument to allocLocal specifies whether the new 
+variable escapes and needs to go in the frame; if it is false, then the variable
+can be allocated in a register. Thus, allocLocal (f) ( false) might create
+InReg($t_{481}$).
+
+We use the word
+temporary to mean a value that is temporarily held in a register, and the word
+label to mean some machine-language location whose exact address is yet to be determined.
+\section{Translation To Intermediate Code}
+The front end of the compiler does lexical analysis, parsing,
+semantic analysis, and translation to intermediate representation. The back
+end does optimization of the intermediate representation and translation to
+machine language.
+
+\ph{ir1}
+
+For our compiler the intermediate representation tree language is defined by the signature tree, as shown in figure
+
+\ph{ir2}
+
+Meaning:
+
+expressions (exp), which stand for the computation of some value (possibly
+with side effects):
+
+\ph{ir3}
+
+\ph{ir4}
+
+\ph{ir5}
+
+What should the representation of an abstract syntax expression Absyn.exp
+be in the Tree language? At first it seems obvious that it should be Tree.exp.
+However, this is true only for certain kinds of expressions, the ones that 
+compute a value. Expressions that return no value (such as some procedure calls,
+or while expressions in the Tiger language) are more naturally represented
+by Tree.stm. And expressions with Boolean values, such as $a > b$, might
+best be represented as a conditional jump - a combination of Tree.stm and
+a pair of destinations represented by Temp. labels.
+Therefore, we will make a datatype exp in the Translate module to
+model these three kinds of expressions:
+
+\ph{ir6}
+
+Sometimes we will have an expression of one kind and we will need to
+convert it to an equivalent expression of another kind. For example, the Tiger
+statement
+
+flag := $(a>b \vert c<d)$
+
+\ph{ir7}
+
+\ph{ir8}
+
+\ph{ir9}
+
+\section{Basic Blocks And Traces}
+It's useful to be able to evaluate the subexpressions of an 
+expression in any order. If tree expressions did not contain ESEQ and CALL nodes,
+then the order of evaluation would not matter.
+
+\ph{81}
+
+We can take any tree and rewrite it into an equivalent tree without any of
+the cases listed above. Without these cases, the only possible parent of a SEQ
+node is another SEQ; all the SEQ nodes will be clustered at the top of the tree.
+This makes the SEQs entirely uninteresting; we might as well get rid of them
+and make a linear list of Tree.stms.
+
+The transformation is done in three stages: First, a tree is rewritten into a
+list of canonical trees without SEQ or ESEQ nodes; then this list is grouped
+into a set of basic blocks, which contain no internal jumps or labels; then
+the basic blocks are ordered into a set of traces in which every CJUMP is
+immediately followed by its false label.
+
+\ph{82}
+
+How can the ESEQ nodes be eliminated? The idea is to lift them higher and
+higher in the tree, until they can become SEQ nodes.
+
+\ph{83}
+
+\ph{84}
+
+\ph{85}
+
+\ph{86}
+
+.
+.
+.
+
+We will apply this algorithm to each function-body in turn. The procedure
+"epilogue" (which pops the stack and returns to the caller) will not be part of
+this body, but is intended to follow the last statement. When the flow of 
+program execution reaches the end of the last block, the epilogue should follow.
+But it is inconvenient to have a "special" block that must come last and that
+has no JUMP at the end. Thus, we will invent a new label done - intended
+to mean the beginning of the epilogue - and put a JUMP(NAME done) at the
+end of the last block.
+
+Now the basic blocks can be arranged in any order, and the result of executing
+the program will be the same - every block ends with a jump to the 
+appropriate place. We can take advantage of this to choose an ordering of the blocks
+satisfying the condition that each CJUMP is followed by its false label.
+
+At the same time, we can also arrange that many of the unconditional
+jumps are immediately followed by their target label. This will allow the
+deletion of these jumps, which will make the compiled program run a bit
+faster.
 \end{document}
