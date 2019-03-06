@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.7)  6 MAR 2019 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.7)  6 MAR 2019 14:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2199,32 +2199,225 @@ Underfull \hbox (badness 10000) in paragraph at lines 1191--1192
 
  []
 
+<87.png, id=241, 808.01875pt x 969.6225pt>
+File: 87.png Graphic file (type png)
+<use 87.png>
+Package pdftex.def Info: 87.png  used on input line 1193.
+(pdftex.def)             Requested size: 275.99266pt x 331.1912pt.
+
+Overfull \hbox (5.001pt too wide) in paragraph at lines 1193--1194
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./81.png> <./82.png> <./83.png> <./84.png> <./85.png> <./86.png>]
+<88.png, id=252, 1155.31625pt x 193.72375pt>
+File: 88.png Graphic file (type png)
+<use 88.png>
+Package pdftex.def Info: 88.png  used on input line 1195.
+(pdftex.def)             Requested size: 275.97704pt x 46.2759pt.
+
+Overfull \hbox (4.98538pt too wide) in paragraph at lines 1195--1196
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1196
+
+ []
+
+<89.png, id=253, 1408.26125pt x 658.46pt>
+File: 89.png Graphic file (type png)
+<use 89.png>
+Package pdftex.def Info: 89.png  used on input line 1197.
+(pdftex.def)             Requested size: 275.97435pt x 129.03719pt.
+
+Overfull \hbox (4.9827pt too wide) in paragraph at lines 1197--1198
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
+
+ []
+
+<811.png, id=254, 1376.14125pt x 673.51625pt>
+File: 811.png Graphic file (type png)
+<use 811.png>
+Package pdftex.def Info: 811.png  used on input line 1199.
+(pdftex.def)             Requested size: 275.97931pt x 135.07083pt.
+
+Overfull \hbox (4.98766pt too wide) in paragraph at lines 1199--1200
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
+
+ []
+
+<812.png, id=255, 1347.0325pt x 217.81375pt>
+File: 812.png Graphic file (type png)
+<use 812.png>
+Package pdftex.def Info: 812.png  used on input line 1201.
+(pdftex.def)             Requested size: 275.97902pt x 44.6255pt.
+
+Overfull \hbox (4.98737pt too wide) in paragraph at lines 1201--1202
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
+
+ []
+
+<813.png, id=256, 1375.1375pt x 286.06876pt>
+File: 813.png Graphic file (type png)
+<use 813.png>
+Package pdftex.def Info: 813.png  used on input line 1203.
+(pdftex.def)             Requested size: 275.98784pt x 57.41353pt.
+
+Overfull \hbox (4.99619pt too wide) in paragraph at lines 1203--1204
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1204
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<814.png, id=257, 960.58875pt x 961.5925pt>
+File: 814.png Graphic file (type png)
+<use 814.png>
+Package pdftex.def Info: 814.png  used on input line 1205.
+(pdftex.def)             Requested size: 275.9839pt x 276.27228pt.
+
+Overfull \hbox (4.99225pt too wide) in paragraph at lines 1205--1206
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1206
+
+ []
+
+<815.png, id=258, 1663.21375pt x 364.36125pt>
+File: 815.png Graphic file (type png)
+<use 815.png>
+Package pdftex.def Info: 815.png  used on input line 1207.
+(pdftex.def)             Requested size: 275.9919pt x 60.4617pt.
+
+Overfull \hbox (5.00024pt too wide) in paragraph at lines 1207--1208
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1207--1208
+
+ []
+
+<816.png, id=259, 1653.17625pt x 551.05875pt>
+File: 816.png Graphic file (type png)
+<use 816.png>
+Package pdftex.def Info: 816.png  used on input line 1209.
+(pdftex.def)             Requested size: 275.99117pt x 91.99704pt.
+
+Overfull \hbox (4.99951pt too wide) in paragraph at lines 1209--1210
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
+
+ []
+
+<818.png, id=260, 1376.14125pt x 911.405pt>
+File: 818.png Graphic file (type png)
+<use 818.png>
+Package pdftex.def Info: 818.png  used on input line 1230.
+(pdftex.def)             Requested size: 275.97931pt x 182.77841pt.
+
+Overfull \hbox (4.98766pt too wide) in paragraph at lines 1230--1231
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./87.png> <./88.png> <./89.png> <./811.png> <./812.png> <./813.png> <./814.png> <./815.png> <./816.png>]
+<819.png, id=275, 1409.265pt x 697.60625pt>
+File: 819.png Graphic file (type png)
+<use 819.png>
+Package pdftex.def Info: 819.png  used on input line 1232.
+(pdftex.def)             Requested size: 275.97752pt x 136.6128pt.
+
+Overfull \hbox (4.98587pt too wide) in paragraph at lines 1232--1233
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
+
+ []
+
+<820.png, id=276, 1131.22626pt x 935.495pt>
+File: 820.png Graphic file (type png)
+<use 820.png>
+Package pdftex.def Info: 820.png  used on input line 1234.
+(pdftex.def)             Requested size: 275.98773pt x 228.23474pt.
+
+Overfull \hbox (4.99608pt too wide) in paragraph at lines 1234--1235
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1235
+
+ []
+
 
 AED: lastpage setting LastPage
-[12 <./81.png> <./82.png> <./83.png> <./84.png> <./85.png> <./86.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1215.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1215.
+[14
+
+ <./818.png> <./819.png> <./820.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1237.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1237.
  (./compiler.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1215.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1215.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1237.
 Package rerunfilecheck Info: File `compiler.out' has not changed.
 (rerunfilecheck)             Checksum: 97977FDDC69DB67B94CA573A88CDCFB9;526.
 runsystem(rm compiler.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23792 strings out of 492982
- 464389 string characters out of 6134897
+ 23854 strings out of 492982
+ 465036 string characters out of 6134897
  623403 words of memory out of 5000000
- 26677 multiletter control sequences out of 15000+600000
+ 26725 multiletter control sequences out of 15000+600000
  11108 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,71p,889b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on compiler.pdf (12 pages, 8008429 bytes).
+Output written on compiler.pdf (14 pages, 9670314 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 418 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 478 words of extra memory for PDF output out of 10000 (max. 10000000)
 
