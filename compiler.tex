@@ -1110,6 +1110,22 @@ InReg($t_{481}$).
 We use the word
 temporary to mean a value that is temporarily held in a register, and the word
 label to mean some machine-language location whose exact address is yet to be determined.
+
+
+Temps are abstract names for local variables; labels are abstract names
+for static memory addresses. The Temp module manages these two distinct
+sets of names.
+
+Temp.newtemp () returns a new temporary from an infinite set of temps.
+Temp.newlabel () returns a new label from an infinite set of labels. And
+Temp.namedlabel (string) returns a new label whose assembly-language
+name is string.
+
+When processing the declaration function f (...), a label for the 
+address of f's machine code can be produced by newlabel (). It's tempting to
+call namedlabel ("f") instead - the assembly-language program will be
+easier to debug if it uses the label f instead of L213 - but unfortunately there
+could be two different functions named f in different scopes.
 \section{Translation To Intermediate Code}
 The front end of the compiler does lexical analysis, parsing,
 semantic analysis, and translation to intermediate representation. The back
@@ -1233,5 +1249,7 @@ faster.
 
 \ph{820}
 
+\section{Instruction Selection}
+Highlighting done in pdf.
 
 \end{document}

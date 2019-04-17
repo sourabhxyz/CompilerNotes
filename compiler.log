@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.7)  6 MAR 2019 14:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.7)  13 MAR 2019 18:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1182,7 +1182,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
-<reg.PNG, id=57, 839.5365pt x 227.04825pt>
+<reg.PNG, id=62, 839.5365pt x 227.04825pt>
 File: reg.PNG Graphic file (type png)
 <use reg.PNG>
 Package pdftex.def Info: reg.PNG  used on input line 69.
@@ -1192,7 +1192,7 @@ Overfull \hbox (4.993pt too wide) in paragraph at lines 69--70
 [][] 
  []
 
-<rtnfa.PNG, id=59, 833.514pt x 473.97075pt>
+<rtnfa.PNG, id=64, 833.514pt x 473.97075pt>
 File: rtnfa.PNG Graphic file (type png)
 <use rtnfa.PNG>
 Package pdftex.def Info: rtnfa.PNG  used on input line 83.
@@ -1202,7 +1202,7 @@ Overfull \hbox (4.99725pt too wide) in paragraph at lines 83--84
 [][] 
  []
 
-<nfa1.PNG, id=60, 869.04675pt x 310.15875pt>
+<nfa1.PNG, id=65, 869.04675pt x 310.15875pt>
 File: nfa1.PNG Graphic file (type png)
 <use nfa1.PNG>
 Package pdftex.def Info: nfa1.PNG  used on input line 85.
@@ -1212,7 +1212,7 @@ Overfull \hbox (5.00055pt too wide) in paragraph at lines 85--86
 [][] 
  []
 
-<nfa2.PNG, id=61, 869.04675pt x 458.9145pt>
+<nfa2.PNG, id=66, 869.04675pt x 458.9145pt>
 File: nfa2.PNG Graphic file (type png)
 <use nfa2.PNG>
 Package pdftex.def Info: nfa2.PNG  used on input line 87.
@@ -1226,7 +1226,7 @@ Overfull \hbox (5.00055pt too wide) in paragraph at lines 87--88
 
 
  <./reg.PNG> <./rtnfa.PNG> <./nfa1.PNG> <./nfa2.PNG>]
-<lex.PNG, id=80, 831.105pt x 490.83376pt>
+<lex.PNG, id=85, 831.105pt x 490.83376pt>
 File: lex.PNG Graphic file (type png)
 <use lex.PNG>
 Package pdftex.def Info: lex.PNG  used on input line 99.
@@ -1236,7 +1236,7 @@ Overfull \hbox (4.99854pt too wide) in paragraph at lines 99--100
 [][] 
  []
 
-<lex2.PNG, id=81, 863.02425pt x 425.79076pt>
+<lex2.PNG, id=86, 863.02425pt x 425.79076pt>
 File: lex2.PNG Graphic file (type png)
 <use lex2.PNG>
 Package pdftex.def Info: lex2.PNG  used on input line 127.
@@ -1255,7 +1255,7 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 \openout3 = `compiler.pyg'.
 
  (./_minted-compiler/8E4A084873A9A240D873685A8953FE17D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
-<lex3.PNG, id=82, 705.837pt x 190.91325pt>
+<lex3.PNG, id=87, 705.837pt x 190.91325pt>
 File: lex3.PNG Graphic file (type png)
 <use lex3.PNG>
 Package pdftex.def Info: lex3.PNG  used on input line 169.
@@ -1265,7 +1265,7 @@ Overfull \hbox (5.00526pt too wide) in paragraph at lines 169--170
 [][] 
  []
 
-<lex4.PNG, id=83, 751.608pt x 373.395pt>
+<lex4.PNG, id=88, 751.608pt x 373.395pt>
 File: lex4.PNG Graphic file (type png)
 <use lex4.PNG>
 Package pdftex.def Info: lex4.PNG  used on input line 171.
@@ -1317,7 +1317,7 @@ Overfull \hbox (5.0002pt too wide) in paragraph at lines 171--172
 \openout3 = `compiler.pyg'.
 
  (./_minted-compiler/9EE1FC618876C8F3C78E02EDA422ECC9D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
-<slbg.png, id=93, 1530.71875pt x 345.29pt>
+<slbg.png, id=98, 1530.71875pt x 345.29pt>
 File: slbg.png Graphic file (type png)
 <use slbg.png>
 Package pdftex.def Info: slbg.png  used on input line 365.
@@ -1328,7 +1328,7 @@ Overfull \hbox (4.99297pt too wide) in paragraph at lines 365--366
  []
 
 [3 <./slbg.png>]
-<pp.png, id=100, 1430.34375pt x 908.39375pt>
+<pp.png, id=105, 1430.34375pt x 908.39375pt>
 File: pp.png Graphic file (type png)
 <use pp.png>
 Package pdftex.def Info: pp.png  used on input line 396.
@@ -1338,7 +1338,7 @@ Overfull \hbox (4.98875pt too wide) in paragraph at lines 396--397
 [][] 
  []
 
-<pp2.png, id=101, 640.3925pt x 816.04875pt>
+<pp2.png, id=106, 640.3925pt x 816.04875pt>
 File: pp2.png Graphic file (type png)
 <use pp2.png>
 Package pdftex.def Info: pp2.png  used on input line 398.
@@ -1348,7 +1348,7 @@ Overfull \hbox (4.99713pt too wide) in paragraph at lines 398--399
 [][] 
  []
 
-<first.png, id=102, 1392.20125pt x 292.09125pt>
+<first.png, id=107, 1392.20125pt x 292.09125pt>
 File: first.png Graphic file (type png)
 <use first.png>
 Package pdftex.def Info: first.png  used on input line 400.
@@ -1358,7 +1358,7 @@ Overfull \hbox (5.00069pt too wide) in paragraph at lines 400--401
 [][] 
  []
 
-<follow.png, id=103, 793.96625pt x 944.52875pt>
+<follow.png, id=108, 793.96625pt x 944.52875pt>
 File: follow.png Graphic file (type png)
 <use follow.png>
 Package pdftex.def Info: follow.png  used on input line 406.
@@ -1392,7 +1392,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout3 = `compiler.pyg'.
 
  (./_minted-compiler/7ED78D54797E4067778F08F938656564D6E9963CCAD95C1F5C966B106CB69C2A.pygtex)
-<erpp.png, id=112, 680.5425pt x 795.97375pt>
+<erpp.png, id=117, 680.5425pt x 795.97375pt>
 File: erpp.png Graphic file (type png)
 <use erpp.png>
 Package pdftex.def Info: erpp.png  used on input line 837.
@@ -1411,7 +1411,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 837--838
 Underfull \vbox (badness 1215) has occurred while \output is active []
 
  [5]
-<lr0.png, id=118, 1371.1225pt x 431.6125pt>
+<lr0.png, id=123, 1371.1225pt x 431.6125pt>
 File: lr0.png Graphic file (type png)
 <use lr0.png>
 Package pdftex.def Info: lr0.png  used on input line 841.
@@ -1426,7 +1426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 841--842
 
  []
 
-<lr01.png, id=119, 1171.37625pt x 967.615pt>
+<lr01.png, id=124, 1171.37625pt x 967.615pt>
 File: lr01.png Graphic file (type png)
 <use lr01.png>
 Package pdftex.def Info: lr01.png  used on input line 845.
@@ -1441,7 +1441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 845--846
 
  []
 
-<lr02.png, id=120, 1411.2725pt x 369.38pt>
+<lr02.png, id=125, 1411.2725pt x 369.38pt>
 File: lr02.png Graphic file (type png)
 <use lr02.png>
 Package pdftex.def Info: lr02.png  used on input line 847.
@@ -1456,7 +1456,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 847--848
 
  []
 
-<slr.png, id=121, 957.5775pt x 321.2pt>
+<slr.png, id=126, 957.5775pt x 321.2pt>
 File: slr.png Graphic file (type png)
 <use slr.png>
 Package pdftex.def Info: slr.png  used on input line 851.
@@ -1471,7 +1471,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 851--852
 
  []
 
-<slr2.png, id=122, 1398.22375pt x 120.45pt>
+<slr2.png, id=127, 1398.22375pt x 120.45pt>
 File: slr2.png Graphic file (type png)
 <use slr2.png>
 Package pdftex.def Info: slr2.png  used on input line 853.
@@ -1486,7 +1486,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 853--854
 
  []
 
-<lr1.png, id=123, 1363.0925pt x 458.71375pt>
+<lr1.png, id=128, 1363.0925pt x 458.71375pt>
 File: lr1.png Graphic file (type png)
 <use lr1.png>
 Package pdftex.def Info: lr1.png  used on input line 857.
@@ -1501,7 +1501,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 857--858
 
  []
 
-<lr2.png, id=124, 1398.22375pt x 526.96875pt>
+<lr2.png, id=129, 1398.22375pt x 526.96875pt>
 File: lr2.png Graphic file (type png)
 <use lr2.png>
 Package pdftex.def Info: lr2.png  used on input line 859.
@@ -1516,7 +1516,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 859--860
 
  []
 
-<hier.png, id=125, 1127.21124pt x 935.495pt>
+<hier.png, id=130, 1127.21124pt x 935.495pt>
 File: hier.png Graphic file (type png)
 <use hier.png>
 Package pdftex.def Info: hier.png  used on input line 861.
@@ -1531,7 +1531,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 861--862
 
  []
 
-<yaccpref.png, id=126, 1390.19376pt x 589.20125pt>
+<yaccpref.png, id=131, 1390.19376pt x 589.20125pt>
 File: yaccpref.png Graphic file (type png)
 <use yaccpref.png>
 Package pdftex.def Info: yaccpref.png  used on input line 863.
@@ -1546,7 +1546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 863--864
 
  []
 
-<yaccpref2.png, id=127, 1391.1975pt x 174.6525pt>
+<yaccpref2.png, id=132, 1391.1975pt x 174.6525pt>
 File: yaccpref2.png Graphic file (type png)
 <use yaccpref2.png>
 Package pdftex.def Info: yaccpref2.png  used on input line 865.
@@ -1562,7 +1562,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 865--866
  []
 
 [6 <./erpp.png> <./lr0.png> <./lr01.png> <./lr02.png> <./slr.png> <./slr2.png> <./lr1.png> <./lr2.png> <./hier.png> <./yaccpref.png> <./yaccpref2.png>]
-<yaccpref3.png, id=143, 1388.18625pt x 359.3425pt>
+<yaccpref3.png, id=148, 1388.18625pt x 359.3425pt>
 File: yaccpref3.png Graphic file (type png)
 <use yaccpref3.png>
 Package pdftex.def Info: yaccpref3.png  used on input line 867.
@@ -1577,7 +1577,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 867--868
 
  []
 
-<yaccpref4.png, id=144, 1262.7175pt x 803.0pt>
+<yaccpref4.png, id=149, 1262.7175pt x 803.0pt>
 File: yaccpref4.png Graphic file (type png)
 <use yaccpref4.png>
 Package pdftex.def Info: yaccpref4.png  used on input line 869.
@@ -1592,7 +1592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 869--870
 
  []
 
-<yaccpref5.png, id=145, 1385.175pt x 234.8775pt>
+<yaccpref5.png, id=150, 1385.175pt x 234.8775pt>
 File: yaccpref5.png Graphic file (type png)
 <use yaccpref5.png>
 Package pdftex.def Info: yaccpref5.png  used on input line 871.
@@ -1607,7 +1607,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 871--872
 
  []
 
-<err.png, id=146, 1160.335pt x 886.31125pt>
+<err.png, id=151, 1160.335pt x 886.31125pt>
 File: err.png Graphic file (type png)
 <use err.png>
 Package pdftex.def Info: err.png  used on input line 875.
@@ -1622,7 +1622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 875--876
 
  []
 
-<gerr.png, id=147, 1156.32pt x 258.9675pt>
+<gerr.png, id=152, 1156.32pt x 258.9675pt>
 File: gerr.png Graphic file (type png)
 <use gerr.png>
 Package pdftex.def Info: gerr.png  used on input line 877.
@@ -1637,7 +1637,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 877--878
 
  []
 
-<sem1.png, id=148, 1395.2125pt x 222.8325pt>
+<sem1.png, id=153, 1395.2125pt x 222.8325pt>
 File: sem1.png Graphic file (type png)
 <use sem1.png>
 Package pdftex.def Info: sem1.png  used on input line 955.
@@ -1652,7 +1652,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 955--956
 
  []
 
-<sem2.png, id=149, 965.6075pt x 877.2775pt>
+<sem2.png, id=154, 965.6075pt x 877.2775pt>
 File: sem2.png Graphic file (type png)
 <use sem2.png>
 Package pdftex.def Info: sem2.png  used on input line 957.
@@ -1671,7 +1671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 957--958
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./yaccpref3.png> <./yaccpref4.png> <./yaccpref5.png> <./err.png> <./gerr.png> <./sem1.png>]
-<sem3.png, id=161, 1547.7825pt x 854.19125pt>
+<sem3.png, id=166, 1547.7825pt x 854.19125pt>
 File: sem3.png Graphic file (type png)
 <use sem3.png>
 Package pdftex.def Info: sem3.png  used on input line 959.
@@ -1686,7 +1686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 959--960
 
  []
 
-<sem4.png, id=162, 496.85625pt x 473.77pt>
+<sem4.png, id=167, 496.85625pt x 473.77pt>
 File: sem4.png Graphic file (type png)
 <use sem4.png>
 Package pdftex.def Info: sem4.png  used on input line 961.
@@ -1701,7 +1701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 961--962
 
  []
 
-<r1.png, id=163, 1382.16376pt x 374.39874pt>
+<r1.png, id=168, 1382.16376pt x 374.39874pt>
 File: r1.png Graphic file (type png)
 <use r1.png>
 Package pdftex.def Info: r1.png  used on input line 969.
@@ -1719,7 +1719,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 969--970
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<r2.png, id=164, 1497.595pt x 663.47874pt>
+<r2.png, id=169, 1497.595pt x 663.47874pt>
 File: r2.png Graphic file (type png)
 <use r2.png>
 Package pdftex.def Info: r2.png  used on input line 971.
@@ -1734,7 +1734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 971--972
 
  []
 
-<r3.png, id=165, 1394.20876pt x 130.4875pt>
+<r3.png, id=170, 1394.20876pt x 130.4875pt>
 File: r3.png Graphic file (type png)
 <use r3.png>
 Package pdftex.def Info: r3.png  used on input line 973.
@@ -1749,7 +1749,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 973--974
 
  []
 
-<r4.png, id=166, 1401.235pt x 223.83624pt>
+<r4.png, id=171, 1401.235pt x 223.83624pt>
 File: r4.png Graphic file (type png)
 <use r4.png>
 Package pdftex.def Info: r4.png  used on input line 975.
@@ -1764,7 +1764,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 975--976
 
  []
 
-<r5.png, id=167, 1401.235pt x 186.6975pt>
+<r5.png, id=172, 1401.235pt x 186.6975pt>
 File: r5.png Graphic file (type png)
 <use r5.png>
 Package pdftex.def Info: r5.png  used on input line 977.
@@ -1779,7 +1779,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 977--978
 
  []
 
-<r6.png, id=168, 1405.25pt x 169.63374pt>
+<r6.png, id=173, 1405.25pt x 169.63374pt>
 File: r6.png Graphic file (type png)
 <use r6.png>
 Package pdftex.def Info: r6.png  used on input line 979.
@@ -1794,7 +1794,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 979--980
 
  []
 
-<r7.png, id=169, 1377.145pt x 626.34pt>
+<r7.png, id=174, 1377.145pt x 626.34pt>
 File: r7.png Graphic file (type png)
 <use r7.png>
 Package pdftex.def Info: r7.png  used on input line 981.
@@ -1809,7 +1809,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 981--982
 
  []
 
-<r8.png, id=170, 659.46375pt x 989.6975pt>
+<r8.png, id=175, 659.46375pt x 989.6975pt>
 File: r8.png Graphic file (type png)
 <use r8.png>
 Package pdftex.def Info: r8.png  used on input line 983.
@@ -1818,7 +1818,7 @@ Package pdftex.def Info: r8.png  used on input line 983.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./sem2.png> <./sem3.png> <./sem4.png> <./r1.png> <./r2.png> <./r3.png> <./r4.png> <./r5.png> <./r6.png> <./r7.png>]
-<r9.png, id=185, 1421.31pt x 284.06125pt>
+<r9.png, id=190, 1421.31pt x 284.06125pt>
 File: r9.png Graphic file (type png)
 <use r9.png>
 Package pdftex.def Info: r9.png  used on input line 1021.
@@ -1833,7 +1833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
 
  []
 
-<r10.png, id=186, 1139.25626pt x 882.29625pt>
+<r10.png, id=191, 1139.25626pt x 882.29625pt>
 File: r10.png Graphic file (type png)
 <use r10.png>
 Package pdftex.def Info: r10.png  used on input line 1023.
@@ -1851,7 +1851,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
 
 Underfull \vbox (badness 2970) has occurred while \output is active []
 
-<r11.png, id=187, 1371.1225pt x 393.47pt>
+<r11.png, id=192, 1371.1225pt x 393.47pt>
 File: r11.png Graphic file (type png)
 <use r11.png>
 Package pdftex.def Info: r11.png  used on input line 1025.
@@ -1866,7 +1866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1025--1026
 
  []
 
-<r12.png, id=188, 1392.20125pt x 584.1825pt>
+<r12.png, id=193, 1392.20125pt x 584.1825pt>
 File: r12.png Graphic file (type png)
 <use r12.png>
 Package pdftex.def Info: r12.png  used on input line 1050.
@@ -1881,7 +1881,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1050--1051
 
  []
 
-<r13.png, id=189, 1384.17125pt x 432.61626pt>
+<r13.png, id=194, 1384.17125pt x 432.61626pt>
 File: r13.png Graphic file (type png)
 <use r13.png>
 Package pdftex.def Info: r13.png  used on input line 1068.
@@ -1900,7 +1900,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
 Underfull \vbox (badness 1533) has occurred while \output is active []
 
  [9 <./r8.png> <./r9.png> <./r10.png> <./r11.png> <./r12.png>]
-<arpb.png, id=200, 1195.46625pt x 883.3pt>
+<arpb.png, id=205, 1195.46625pt x 883.3pt>
 File: arpb.png Graphic file (type png)
 <use arpb.png>
 Package pdftex.def Info: arpb.png  used on input line 1072.
@@ -1915,7 +1915,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1072--1073
 
  []
 
-<r14.png, id=201, 1181.41376pt x 984.67876pt>
+<r14.png, id=206, 1181.41376pt x 984.67876pt>
 File: r14.png Graphic file (type png)
 <use r14.png>
 Package pdftex.def Info: r14.png  used on input line 1074.
@@ -1930,7 +1930,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
 
  []
 
-<r15.png, id=202, 1104.125pt x 418.56375pt>
+<r15.png, id=207, 1104.125pt x 418.56375pt>
 File: r15.png Graphic file (type png)
 <use r15.png>
 Package pdftex.def Info: r15.png  used on input line 1076.
@@ -1945,7 +1945,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
 
  []
 
-<r16.png, id=203, 1414.28375pt x 497.86pt>
+<r16.png, id=208, 1414.28375pt x 497.86pt>
 File: r16.png Graphic file (type png)
 <use r16.png>
 Package pdftex.def Info: r16.png  used on input line 1087.
@@ -1963,313 +1963,183 @@ Underfull \hbox (badness 10000) in paragraph at lines 1087--1088
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<ir1.png, id=204, 1407.2575pt x 722.7pt>
+<ir1.png, id=209, 1407.2575pt x 722.7pt>
 File: ir1.png Graphic file (type png)
 <use ir1.png>
-Package pdftex.def Info: ir1.png  used on input line 1119.
+Package pdftex.def Info: ir1.png  used on input line 1135.
 (pdftex.def)             Requested size: 275.99237pt x 141.73645pt.
 
-Overfull \hbox (5.00072pt too wide) in paragraph at lines 1119--1120
+Overfull \hbox (5.00072pt too wide) in paragraph at lines 1135--1136
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
 
  []
 
-<ir2.png, id=205, 1298.8525pt x 982.67125pt>
+<ir2.png, id=210, 1298.8525pt x 982.67125pt>
 File: ir2.png Graphic file (type png)
 <use ir2.png>
-Package pdftex.def Info: ir2.png  used on input line 1123.
+Package pdftex.def Info: ir2.png  used on input line 1139.
 (pdftex.def)             Requested size: 275.97772pt x 208.79613pt.
 
-Overfull \hbox (4.98607pt too wide) in paragraph at lines 1123--1124
+Overfull \hbox (4.98607pt too wide) in paragraph at lines 1139--1140
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1123--1124
+Underfull \hbox (badness 10000) in paragraph at lines 1139--1140
 
  []
 
-[10 <./r13.png> <./arpb.png> <./r14.png> <./r15.png> <./r16.png> <./ir1.png> <./ir2.png>]
-<ir3.png, id=217, 1359.0775pt x 803.0pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./r13.png> <./arpb.png> <./r14.png> <./r15.png> <./r16.png> <./ir1.png>]
+<ir3.png, id=221, 1359.0775pt x 803.0pt>
 File: ir3.png Graphic file (type png)
 <use ir3.png>
-Package pdftex.def Info: ir3.png  used on input line 1130.
+Package pdftex.def Info: ir3.png  used on input line 1146.
 (pdftex.def)             Requested size: 275.97899pt x 163.05997pt.
 
-Overfull \hbox (4.98734pt too wide) in paragraph at lines 1130--1131
+Overfull \hbox (4.98734pt too wide) in paragraph at lines 1146--1147
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1130--1131
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1147
 
  []
 
-<ir4.png, id=218, 1391.1975pt x 389.455pt>
+<ir4.png, id=222, 1391.1975pt x 389.455pt>
 File: ir4.png Graphic file (type png)
 <use ir4.png>
-Package pdftex.def Info: ir4.png  used on input line 1132.
+Package pdftex.def Info: ir4.png  used on input line 1148.
 (pdftex.def)             Requested size: 275.9844pt x 77.25969pt.
 
-Overfull \hbox (4.99275pt too wide) in paragraph at lines 1132--1133
+Overfull \hbox (4.99275pt too wide) in paragraph at lines 1148--1149
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1132--1133
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
 
  []
 
-<ir5.png, id=219, 990.70125pt x 892.33376pt>
+<ir5.png, id=223, 990.70125pt x 892.33376pt>
 File: ir5.png Graphic file (type png)
 <use ir5.png>
-Package pdftex.def Info: ir5.png  used on input line 1134.
+Package pdftex.def Info: ir5.png  used on input line 1150.
 (pdftex.def)             Requested size: 275.98859pt x 248.58546pt.
 
-Overfull \hbox (4.99693pt too wide) in paragraph at lines 1134--1135
+Overfull \hbox (4.99693pt too wide) in paragraph at lines 1150--1151
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1134--1135
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1151
 
  []
 
-<ir6.png, id=220, 1353.055pt x 934.49126pt>
+<ir6.png, id=224, 1353.055pt x 934.49126pt>
 File: ir6.png Graphic file (type png)
 <use ir6.png>
-Package pdftex.def Info: ir6.png  used on input line 1147.
+Package pdftex.def Info: ir6.png  used on input line 1163.
 (pdftex.def)             Requested size: 275.9948pt x 190.61658pt.
 
-Overfull \hbox (5.00314pt too wide) in paragraph at lines 1147--1148
+Overfull \hbox (5.00314pt too wide) in paragraph at lines 1163--1164
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1147--1148
+Underfull \hbox (badness 10000) in paragraph at lines 1163--1164
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<ir7.png, id=221, 1121.18875pt x 824.07875pt>
+<ir7.png, id=225, 1121.18875pt x 824.07875pt>
 File: ir7.png Graphic file (type png)
 <use ir7.png>
-Package pdftex.def Info: ir7.png  used on input line 1155.
+Package pdftex.def Info: ir7.png  used on input line 1171.
 (pdftex.def)             Requested size: 275.98529pt x 202.85042pt.
 
-Overfull \hbox (4.99364pt too wide) in paragraph at lines 1155--1156
+Overfull \hbox (4.99364pt too wide) in paragraph at lines 1171--1172
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1155--1156
+Underfull \hbox (badness 10000) in paragraph at lines 1171--1172
 
  []
 
-<ir8.png, id=222, 699.61375pt x 278.03876pt>
+<ir8.png, id=226, 699.61375pt x 278.03876pt>
 File: ir8.png Graphic file (type png)
 <use ir8.png>
-Package pdftex.def Info: ir8.png  used on input line 1157.
+Package pdftex.def Info: ir8.png  used on input line 1173.
 (pdftex.def)             Requested size: 275.99745pt x 109.68622pt.
 
-Overfull \hbox (5.0058pt too wide) in paragraph at lines 1157--1158
+Overfull \hbox (5.0058pt too wide) in paragraph at lines 1173--1174
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
 
  []
 
-<ir9.png, id=223, 1154.3125pt x 217.81375pt>
+<ir9.png, id=227, 1154.3125pt x 217.81375pt>
 File: ir9.png Graphic file (type png)
 <use ir9.png>
-Package pdftex.def Info: ir9.png  used on input line 1159.
+Package pdftex.def Info: ir9.png  used on input line 1175.
 (pdftex.def)             Requested size: 275.98386pt x 52.07695pt.
 
-Overfull \hbox (4.9922pt too wide) in paragraph at lines 1159--1160
+Overfull \hbox (4.9922pt too wide) in paragraph at lines 1175--1176
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1159--1160
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1176
 
  []
 
-<81.png, id=224, 1401.235pt x 563.10374pt>
+<81.png, id=228, 1401.235pt x 563.10374pt>
 File: 81.png Graphic file (type png)
 <use 81.png>
-Package pdftex.def Info: 81.png  used on input line 1166.
+Package pdftex.def Info: 81.png  used on input line 1182.
 (pdftex.def)             Requested size: 275.9872pt x 110.90889pt.
 
-Overfull \hbox (4.99554pt too wide) in paragraph at lines 1166--1167
+Overfull \hbox (4.99554pt too wide) in paragraph at lines 1182--1183
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1166--1167
+Underfull \hbox (badness 10000) in paragraph at lines 1182--1183
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./ir3.png> <./ir4.png> <./ir5.png> <./ir6.png> <./ir7.png> <./ir8.png> <./ir9.png>]
-<82.png, id=236, 1420.30624pt x 869.2475pt>
+[11 <./ir2.png> <./ir3.png> <./ir4.png> <./ir5.png> <./ir6.png> <./ir7.png> <./ir8.png> <./ir9.png>]
+<82.png, id=241, 1420.30624pt x 869.2475pt>
 File: 82.png Graphic file (type png)
 <use 82.png>
-Package pdftex.def Info: 82.png  used on input line 1180.
+Package pdftex.def Info: 82.png  used on input line 1196.
 (pdftex.def)             Requested size: 275.99419pt x 168.91234pt.
 
-Overfull \hbox (5.00253pt too wide) in paragraph at lines 1180--1181
+Overfull \hbox (5.00253pt too wide) in paragraph at lines 1196--1197
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1180--1181
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
 
  []
 
-<83.png, id=237, 1226.5825pt x 292.09125pt>
+<83.png, id=242, 1226.5825pt x 292.09125pt>
 File: 83.png Graphic file (type png)
 <use 83.png>
-Package pdftex.def Info: 83.png  used on input line 1185.
+Package pdftex.def Info: 83.png  used on input line 1201.
 (pdftex.def)             Requested size: 275.98787pt x 65.72214pt.
 
-Overfull \hbox (4.99622pt too wide) in paragraph at lines 1185--1186
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1185--1186
-
- []
-
-<84.png, id=238, 757.83125pt x 985.6825pt>
-File: 84.png Graphic file (type png)
-<use 84.png>
-Package pdftex.def Info: 84.png  used on input line 1187.
-(pdftex.def)             Requested size: 275.98746pt x 358.96646pt.
-
-Overfull \hbox (4.9958pt too wide) in paragraph at lines 1187--1188
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1187--1188
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<85.png, id=239, 1376.14125pt x 225.84375pt>
-File: 85.png Graphic file (type png)
-<use 85.png>
-Package pdftex.def Info: 85.png  used on input line 1189.
-(pdftex.def)             Requested size: 275.97931pt x 45.29199pt.
-
-Overfull \hbox (4.98766pt too wide) in paragraph at lines 1189--1190
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1189--1190
-
- []
-
-<86.png, id=240, 1435.3625pt x 834.11626pt>
-File: 86.png Graphic file (type png)
-<use 86.png>
-Package pdftex.def Info: 86.png  used on input line 1191.
-(pdftex.def)             Requested size: 275.98508pt x 160.38014pt.
-
-Overfull \hbox (4.99342pt too wide) in paragraph at lines 1191--1192
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1191--1192
-
- []
-
-<87.png, id=241, 808.01875pt x 969.6225pt>
-File: 87.png Graphic file (type png)
-<use 87.png>
-Package pdftex.def Info: 87.png  used on input line 1193.
-(pdftex.def)             Requested size: 275.99266pt x 331.1912pt.
-
-Overfull \hbox (5.001pt too wide) in paragraph at lines 1193--1194
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12 <./81.png> <./82.png> <./83.png> <./84.png> <./85.png> <./86.png>]
-<88.png, id=252, 1155.31625pt x 193.72375pt>
-File: 88.png Graphic file (type png)
-<use 88.png>
-Package pdftex.def Info: 88.png  used on input line 1195.
-(pdftex.def)             Requested size: 275.97704pt x 46.2759pt.
-
-Overfull \hbox (4.98538pt too wide) in paragraph at lines 1195--1196
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1195--1196
-
- []
-
-<89.png, id=253, 1408.26125pt x 658.46pt>
-File: 89.png Graphic file (type png)
-<use 89.png>
-Package pdftex.def Info: 89.png  used on input line 1197.
-(pdftex.def)             Requested size: 275.97435pt x 129.03719pt.
-
-Overfull \hbox (4.9827pt too wide) in paragraph at lines 1197--1198
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
-
- []
-
-<811.png, id=254, 1376.14125pt x 673.51625pt>
-File: 811.png Graphic file (type png)
-<use 811.png>
-Package pdftex.def Info: 811.png  used on input line 1199.
-(pdftex.def)             Requested size: 275.97931pt x 135.07083pt.
-
-Overfull \hbox (4.98766pt too wide) in paragraph at lines 1199--1200
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
-
- []
-
-<812.png, id=255, 1347.0325pt x 217.81375pt>
-File: 812.png Graphic file (type png)
-<use 812.png>
-Package pdftex.def Info: 812.png  used on input line 1201.
-(pdftex.def)             Requested size: 275.97902pt x 44.6255pt.
-
-Overfull \hbox (4.98737pt too wide) in paragraph at lines 1201--1202
+Overfull \hbox (4.99622pt too wide) in paragraph at lines 1201--1202
 [][]
  []
 
@@ -2278,13 +2148,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
 
  []
 
-<813.png, id=256, 1375.1375pt x 286.06876pt>
-File: 813.png Graphic file (type png)
-<use 813.png>
-Package pdftex.def Info: 813.png  used on input line 1203.
-(pdftex.def)             Requested size: 275.98784pt x 57.41353pt.
+<84.png, id=243, 757.83125pt x 985.6825pt>
+File: 84.png Graphic file (type png)
+<use 84.png>
+Package pdftex.def Info: 84.png  used on input line 1203.
+(pdftex.def)             Requested size: 275.98746pt x 358.96646pt.
 
-Overfull \hbox (4.99619pt too wide) in paragraph at lines 1203--1204
+Overfull \hbox (4.9958pt too wide) in paragraph at lines 1203--1204
 [][]
  []
 
@@ -2296,13 +2166,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1203--1204
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<814.png, id=257, 960.58875pt x 961.5925pt>
-File: 814.png Graphic file (type png)
-<use 814.png>
-Package pdftex.def Info: 814.png  used on input line 1205.
-(pdftex.def)             Requested size: 275.9839pt x 276.27228pt.
+<85.png, id=244, 1376.14125pt x 225.84375pt>
+File: 85.png Graphic file (type png)
+<use 85.png>
+Package pdftex.def Info: 85.png  used on input line 1205.
+(pdftex.def)             Requested size: 275.97931pt x 45.29199pt.
 
-Overfull \hbox (4.99225pt too wide) in paragraph at lines 1205--1206
+Overfull \hbox (4.98766pt too wide) in paragraph at lines 1205--1206
 [][]
  []
 
@@ -2311,13 +2181,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1205--1206
 
  []
 
-<815.png, id=258, 1663.21375pt x 364.36125pt>
-File: 815.png Graphic file (type png)
-<use 815.png>
-Package pdftex.def Info: 815.png  used on input line 1207.
-(pdftex.def)             Requested size: 275.9919pt x 60.4617pt.
+<86.png, id=245, 1435.3625pt x 834.11626pt>
+File: 86.png Graphic file (type png)
+<use 86.png>
+Package pdftex.def Info: 86.png  used on input line 1207.
+(pdftex.def)             Requested size: 275.98508pt x 160.38014pt.
 
-Overfull \hbox (5.00024pt too wide) in paragraph at lines 1207--1208
+Overfull \hbox (4.99342pt too wide) in paragraph at lines 1207--1208
 [][]
  []
 
@@ -2326,13 +2196,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1207--1208
 
  []
 
-<816.png, id=259, 1653.17625pt x 551.05875pt>
-File: 816.png Graphic file (type png)
-<use 816.png>
-Package pdftex.def Info: 816.png  used on input line 1209.
-(pdftex.def)             Requested size: 275.99117pt x 91.99704pt.
+<87.png, id=246, 808.01875pt x 969.6225pt>
+File: 87.png Graphic file (type png)
+<use 87.png>
+Package pdftex.def Info: 87.png  used on input line 1209.
+(pdftex.def)             Requested size: 275.99266pt x 331.1912pt.
 
-Overfull \hbox (4.99951pt too wide) in paragraph at lines 1209--1210
+Overfull \hbox (5.001pt too wide) in paragraph at lines 1209--1210
 [][]
  []
 
@@ -2341,18 +2211,145 @@ Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
 
  []
 
-<818.png, id=260, 1376.14125pt x 911.405pt>
-File: 818.png Graphic file (type png)
-<use 818.png>
-Package pdftex.def Info: 818.png  used on input line 1230.
-(pdftex.def)             Requested size: 275.97931pt x 182.77841pt.
 
-Overfull \hbox (4.98766pt too wide) in paragraph at lines 1230--1231
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./81.png> <./82.png> <./83.png> <./84.png> <./85.png> <./86.png>]
+<88.png, id=257, 1155.31625pt x 193.72375pt>
+File: 88.png Graphic file (type png)
+<use 88.png>
+Package pdftex.def Info: 88.png  used on input line 1211.
+(pdftex.def)             Requested size: 275.97704pt x 46.2759pt.
+
+Overfull \hbox (4.98538pt too wide) in paragraph at lines 1211--1212
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+
+ []
+
+<89.png, id=258, 1408.26125pt x 658.46pt>
+File: 89.png Graphic file (type png)
+<use 89.png>
+Package pdftex.def Info: 89.png  used on input line 1213.
+(pdftex.def)             Requested size: 275.97435pt x 129.03719pt.
+
+Overfull \hbox (4.9827pt too wide) in paragraph at lines 1213--1214
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1213--1214
+
+ []
+
+<811.png, id=259, 1376.14125pt x 673.51625pt>
+File: 811.png Graphic file (type png)
+<use 811.png>
+Package pdftex.def Info: 811.png  used on input line 1215.
+(pdftex.def)             Requested size: 275.97931pt x 135.07083pt.
+
+Overfull \hbox (4.98766pt too wide) in paragraph at lines 1215--1216
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1216
+
+ []
+
+<812.png, id=260, 1347.0325pt x 217.81375pt>
+File: 812.png Graphic file (type png)
+<use 812.png>
+Package pdftex.def Info: 812.png  used on input line 1217.
+(pdftex.def)             Requested size: 275.97902pt x 44.6255pt.
+
+Overfull \hbox (4.98737pt too wide) in paragraph at lines 1217--1218
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1218
+
+ []
+
+<813.png, id=261, 1375.1375pt x 286.06876pt>
+File: 813.png Graphic file (type png)
+<use 813.png>
+Package pdftex.def Info: 813.png  used on input line 1219.
+(pdftex.def)             Requested size: 275.98784pt x 57.41353pt.
+
+Overfull \hbox (4.99619pt too wide) in paragraph at lines 1219--1220
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1220
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<814.png, id=262, 960.58875pt x 961.5925pt>
+File: 814.png Graphic file (type png)
+<use 814.png>
+Package pdftex.def Info: 814.png  used on input line 1221.
+(pdftex.def)             Requested size: 275.9839pt x 276.27228pt.
+
+Overfull \hbox (4.99225pt too wide) in paragraph at lines 1221--1222
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1222
+
+ []
+
+<815.png, id=263, 1663.21375pt x 364.36125pt>
+File: 815.png Graphic file (type png)
+<use 815.png>
+Package pdftex.def Info: 815.png  used on input line 1223.
+(pdftex.def)             Requested size: 275.9919pt x 60.4617pt.
+
+Overfull \hbox (5.00024pt too wide) in paragraph at lines 1223--1224
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1224
+
+ []
+
+<816.png, id=264, 1653.17625pt x 551.05875pt>
+File: 816.png Graphic file (type png)
+<use 816.png>
+Package pdftex.def Info: 816.png  used on input line 1225.
+(pdftex.def)             Requested size: 275.99117pt x 91.99704pt.
+
+Overfull \hbox (4.99951pt too wide) in paragraph at lines 1225--1226
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
+
+ []
+
+<818.png, id=265, 1376.14125pt x 911.405pt>
+File: 818.png Graphic file (type png)
+<use 818.png>
+Package pdftex.def Info: 818.png  used on input line 1246.
+(pdftex.def)             Requested size: 275.97931pt x 182.77841pt.
+
+Overfull \hbox (4.98766pt too wide) in paragraph at lines 1246--1247
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1247
 
  []
 
@@ -2360,33 +2357,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <./87.png> <./88.png> <./89.png> <./811.png> <./812.png> <./813.png> <./814.png> <./815.png> <./816.png>]
-<819.png, id=275, 1409.265pt x 697.60625pt>
+<819.png, id=280, 1409.265pt x 697.60625pt>
 File: 819.png Graphic file (type png)
 <use 819.png>
-Package pdftex.def Info: 819.png  used on input line 1232.
+Package pdftex.def Info: 819.png  used on input line 1248.
 (pdftex.def)             Requested size: 275.97752pt x 136.6128pt.
 
-Overfull \hbox (4.98587pt too wide) in paragraph at lines 1232--1233
+Overfull \hbox (4.98587pt too wide) in paragraph at lines 1248--1249
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
+Underfull \hbox (badness 10000) in paragraph at lines 1248--1249
 
  []
 
-<820.png, id=276, 1131.22626pt x 935.495pt>
+<820.png, id=281, 1131.22626pt x 935.495pt>
 File: 820.png Graphic file (type png)
 <use 820.png>
-Package pdftex.def Info: 820.png  used on input line 1234.
+Package pdftex.def Info: 820.png  used on input line 1250.
 (pdftex.def)             Requested size: 275.98773pt x 228.23474pt.
 
-Overfull \hbox (4.99608pt too wide) in paragraph at lines 1234--1235
+Overfull \hbox (4.99608pt too wide) in paragraph at lines 1250--1251
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1234--1235
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1251
 
  []
 
@@ -2395,29 +2392,29 @@ AED: lastpage setting LastPage
 [14
 
  <./818.png> <./819.png> <./820.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1237.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1237.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1255.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1255.
  (./compiler.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1237.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1237.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1255.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1255.
 Package rerunfilecheck Info: File `compiler.out' has not changed.
-(rerunfilecheck)             Checksum: 97977FDDC69DB67B94CA573A88CDCFB9;526.
+(rerunfilecheck)             Checksum: 04C5564B79BA8234B3D7AAA9BC50D035;583.
 runsystem(rm compiler.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23854 strings out of 492982
- 465036 string characters out of 6134897
+ 23856 strings out of 492982
+ 465056 string characters out of 6134897
  623403 words of memory out of 5000000
- 26725 multiletter control sequences out of 15000+600000
+ 26726 multiletter control sequences out of 15000+600000
  11108 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,71p,889b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on compiler.pdf (14 pages, 9670314 bytes).
+Output written on compiler.pdf (14 pages, 9671501 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 478 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 486 words of extra memory for PDF output out of 10000 (max. 10000000)
 

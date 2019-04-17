@@ -8,3 +8,4 @@
 \contentsline {section}{\numberline {5}Activation Records}{8}{section.5}
 \contentsline {section}{\numberline {6}Translation To Intermediate Code}{10}{section.6}
 \contentsline {section}{\numberline {7}Basic Blocks And Traces}{11}{section.7}
+\contentsline {section}{\numberline {8}Instruction Selection}{14}{section.8}
