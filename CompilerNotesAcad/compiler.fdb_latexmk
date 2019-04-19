@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1555655813 "/home/sourabh/Documents/Github/CompilerNotes/CompilerNotesAcad/compiler.tex" "compiler.pdf" "compiler" 1555655824
+["pdflatex"] 1555661075 "/home/sourabh/Documents/Github/CompilerNotes/CompilerNotesAcad/compiler.tex" "compiler.pdf" "compiler" 1555661086
   "/dev/null" 1555639145 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1546805806 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/sourabh/Documents/Github/CompilerNotes/CompilerNotesAcad/compiler.tex" 1555655802 18613 bad9eb8e5ce6594ef7c74b9fa3ab414c ""
+  "/home/sourabh/Documents/Github/CompilerNotes/CompilerNotesAcad/compiler.tex" 1555661075 18627 4b01302475146bfd8c555648ad6a5cde ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -235,10 +235,10 @@
   "_minted-compiler/default.pygstyle" 1546429531 9376 8aa733b260ad9170b2e3acc4c0a0b08c ""
   "arpb.png" 1551849407 160894 68f2cb12805d7237cddfbb66887bfd6c ""
   "compiler.aex" 0 -1 0 ""
-  "compiler.aux" 1555655824 2739 73738043d4d4ae08a9725b271a9d974c ""
-  "compiler.out" 1555655824 770 462c77c6aef4a022bf569e792083eae1 ""
-  "compiler.tex" 1555655802 18613 bad9eb8e5ce6594ef7c74b9fa3ab414c ""
-  "compiler.toc" 1555655824 1013 fe46ec97380cec5f586f9846affa7058 ""
+  "compiler.aux" 1555661086 2739 73738043d4d4ae08a9725b271a9d974c ""
+  "compiler.out" 1555661086 770 462c77c6aef4a022bf569e792083eae1 ""
+  "compiler.tex" 1555661075 18627 4b01302475146bfd8c555648ad6a5cde ""
+  "compiler.toc" 1555661086 1013 fe46ec97380cec5f586f9846affa7058 ""
   "compiler.w18" 0 -1 0 ""
   "erpp.png" 1550136258 279810 e0ad0b40c151c5414b2e894f5539f7a3 ""
   "err.png" 1550399079 254302 9ddabd02d4ac61105fc88f53068bc53d ""
@@ -295,9 +295,9 @@
   "yaccpref4.png" 1550394693 126899 a9d107d681d8cfdf076c9f2d8e610a82 ""
   "yaccpref5.png" 1550394712 103128 cb9d9e6a6a53f0afd7d180a3bb90222d ""
   (generated)
-  "compiler.aux"
   "compiler.toc"
-  "compiler.log"
-  "compiler.out"
+  "compiler.aux"
   "compiler.pyg"
+  "compiler.out"
+  "compiler.log"
   "compiler.pdf"
