@@ -9,3 +9,5 @@
 \contentsline {section}{\numberline {6}CH 8 Basic Blocks And Traces}{8}{section.6}
 \contentsline {section}{\numberline {7}CH 9 Instruction Selection}{10}{section.7}
 \contentsline {section}{\numberline {8}CH 10 Liveness Analysis}{10}{section.8}
+\contentsline {section}{\numberline {9}CH 11 Register Allocation}{10}{section.9}
+\contentsline {section}{\numberline {10}CH 13 Garbage Collection}{10}{section.10}

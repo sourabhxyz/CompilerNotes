@@ -1,9 +1,9 @@
-PWD /home/sourabh/Documents/CompilerNotesAcad
+PWD /home/sourabh/Documents/Github/CompilerNotes/CompilerNotesAcad
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/sourabh/Documents/CompilerNotesAcad/compiler.tex
+INPUT /home/sourabh/Documents/Github/CompilerNotes/CompilerNotesAcad/compiler.tex
 OUTPUT compiler.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
