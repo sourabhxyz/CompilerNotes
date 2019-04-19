@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{n}{\PYGZbs{}b} \PYG{n}{backspace}
+    \PYG{n}{\PYGZbs{}n} \PYG{n}{newline}
+    \PYG{n}{\PYGZbs{}t} \PYG{n}{horizontal} \PYG{n}{tab}
+    \PYG{n}{\PYGZbs{}ddd} \PYG{k+kr}{where} \PYG{n}{ddd} \PYG{n}{is} \PYG{n}{a} \PYG{l+m+mi}{3} \PYG{n}{digit} \PYG{n}{decimal} \PYG{n}{escape}
+\end{Verbatim}
